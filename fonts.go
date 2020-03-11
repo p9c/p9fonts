@@ -6,17 +6,18 @@ import (
 	"gioui.org/font"
 	"gioui.org/font/opentype"
 	"gioui.org/text"
-	"github.com/p9c/pod/pkg/fonts/bariolbold"
-	"github.com/p9c/pod/pkg/fonts/bariolbolditalic"
-	"github.com/p9c/pod/pkg/fonts/bariollight"
-	"github.com/p9c/pod/pkg/fonts/bariollightitalic"
-	"github.com/p9c/pod/pkg/fonts/bariolregular"
-	"github.com/p9c/pod/pkg/fonts/bariolregularitalic"
-	"github.com/p9c/pod/pkg/fonts/plan9"
 	"golang.org/x/image/font/gofont/gomono"
 	"golang.org/x/image/font/gofont/gomonobold"
 	"golang.org/x/image/font/gofont/gomonobolditalic"
 	"golang.org/x/image/font/gofont/gomonoitalic"
+
+	"github.com/p9c/p9fonts/bariolbold"
+	"github.com/p9c/p9fonts/bariolbolditalic"
+	"github.com/p9c/p9fonts/bariollight"
+	"github.com/p9c/p9fonts/bariollightitalic"
+	"github.com/p9c/p9fonts/bariolregular"
+	"github.com/p9c/p9fonts/bariolregularitalic"
+	"github.com/p9c/p9fonts/plan9"
 )
 
 func Register() {
